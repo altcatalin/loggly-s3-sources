@@ -1,17 +1,15 @@
-#loggly-s3-sources
+# loggly-s3-sources
 
 "Fork" of [https://www.loggly.com/install/SQS3script.py](https://www.loggly.com/install/SQS3script.py)
 
-####Documentation:
+#### Documentation:
 
 - Loggly: [Amazon S3 Log Ingestion](https://www.loggly.com/docs/s3-ingestion-auto/)
 - AWS: [Named Profiles](http://docs.aws.amazon.com/cli/latest/userguide/cli-multiple-profiles.html)
 
-##Dependency Management:
+## Dependency Management:
 
-[pipenv](https://docs.pipenv.org/) is used for this project
-
-To install dependencies, simply
+[pipenv](https://docs.pipenv.org/) is used for this project. To install dependencies, simply
 
 ```bash
 $ pipenv install
@@ -25,7 +23,7 @@ $ pipenv shell
 
 This will spawn a new shell where all dependencies will be present.
 
-##Usage:
+## Usage:
 
 ```bash
 $ python SQS3script.py --s3bucket  --acnumber
